@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.meeting_room_container {
+    display: flex;
+    width: 800px;
+    background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+
+    .meeting_room_container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .container {
+        height: auto;
+    }
+}

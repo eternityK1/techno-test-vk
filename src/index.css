@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #222;
+    font-weight: 400;
+    background: #282828;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: #fff;
+    }
+}
